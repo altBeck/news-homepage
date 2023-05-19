@@ -1,0 +1,149 @@
+.header-container {
+  padding-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-container {
+  width: 65%;
+}
+
+.mobile {
+  display: none;
+}
+
+.hero-sub_container {
+  padding-top: 2.625rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-sub_container {
+  display: flex;
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-weight: 900;
+  color: #00001A;
+  line-height: normal;
+  padding-right: 5.25rem;
+}
+
+.hero-side_container {
+  width: 105%;
+}
+
+.hero-side_container p {
+  color: #7B7A7F;
+  font-size: 18px;
+  padding-bottom: 2rem;
+}
+
+.button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 185px;
+  height: 50px;
+  background-color: #F15D51;
+  border: 0;
+  letter-spacing: 0.15em;
+}
+
+.button a {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.hero-sidenews {
+  width: 380px;
+  background-color: #00001A;
+  color: white;
+  padding: 2rem;
+}
+
+.minion {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.line {
+  border-top: solid .5px white;
+}
+
+h2 {
+  color: #E7A549;
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 14px;
+  color: #C2C3D7;
+  font-weight: 500;
+}
+
+h4:hover {
+  color: #E7A549;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .hero-container {
+    padding-right: 1rem;
+  }
+
+  .hero-sub_container h1 {
+    font-size: 36px;
+    padding-right: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .header-container {
+    display: block;
+  }
+
+  .hero-container {
+    width: 100%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .hero-sub_container {
+    display: block;
+  }
+
+  h1 {
+    padding: 0;
+    font-size: 2.625rem;
+  }
+
+  .hero-side_container {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 6.5rem;
+  }
+
+  .hero-side_container p {
+    font-size: 1rem;
+  }
+
+  .hero-sidenews {
+    width: 100%;
+  }
+}

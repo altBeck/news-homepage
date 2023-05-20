@@ -5,7 +5,7 @@ import gaming from '../../assets/images/image-gaming-growth.jpg';
 
 const Latest = () => {
   return (
-    <div className="latest-container">
+    <section className="latest-container">
 
       <div className="latest-module">
         <div className="news-img">
@@ -48,7 +48,7 @@ const Latest = () => {
 
 
 
-    </div>
+    </section>
   )
 }
 

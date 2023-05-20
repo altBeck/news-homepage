@@ -15,13 +15,13 @@ const Header = () => {
         <div className="header-sub_container">
 
           <div className="hero-sub_container">
-            <div>
+            <header>
               <h1>The Bright Future of Web 3.0?</h1>
-            </div>
+            </header>
             <div className="hero-side_container">
               <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
 
-              <button className="button"><a href="#">READ MORE</a></button>
+              <a className="button" href="#">READ MORE</a>
             </div>
           </div>
 
@@ -29,11 +29,11 @@ const Header = () => {
 
       </div>
 
-      <div className="hero-sidenews">
+      <section className="hero-sidenews">
         <h2>New</h2>
 
         <div className="minion">
-          <h4>Hydrogen VS Electric Cars</h4>
+          <header>Hydrogen VS Electric Cars</header>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         </div>
 
@@ -50,7 +50,7 @@ const Header = () => {
           <h4>Is VC Funding Drying Up?</h4>
           <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
         </div>
-      </div>
+      </section>
     
     </div>
   )

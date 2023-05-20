@@ -50,11 +50,13 @@ h1 {
   background-color: #F15D51;
   border: 0;
   letter-spacing: 0.15em;
-}
-
-.button a {
   font-size: 15px;
   font-weight: 600;
+  color: white;
+}
+
+.button:hover {
+  background-color: #00001A;
   color: white;
 }
 
@@ -77,6 +79,16 @@ h1 {
 h2 {
   color: #E7A549;
   font-size: 2.25rem;
+}
+
+header {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+header:hover {
+  color: #E7A549;
+  cursor: pointer;
 }
 
 h4 {
